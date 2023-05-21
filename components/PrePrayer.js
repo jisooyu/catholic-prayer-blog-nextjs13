@@ -9,7 +9,9 @@ const PrePrayer = ({ prePrayer }) => {
         height: isIphone13 ? '140vh' : '105vh',
         width: isIphone13 ? '90vw' : '60vw',
         paddingTop: isIphone13 ? '4em' : '1em',
-        marginLeft: isIphone13 ? '2em' : '1em'
+        paddingLeft: isIphone13 ? '2em' : '1em',
+        marginLeft: isIphone13 ? '1em' : '1em',
+        marginRight: isIphone13 ? '3em' : '1em'
     };
 
     const prayerTitle = {

@@ -11,9 +11,10 @@ const Prayer = ({ prayer }) => {
     });
     const paperStyle = {
         height: isIphone13 ? '80vh' : '100vh',
-        width: isIphone13 ? '82vw' : '65vw',
-        paddingTop: isIphone13 ? '4em' : '1em',
-        marginLeft: isIphone13 ? '2em' : '1em'
+        width: isIphone13 ? '80vw' : '65vw',
+        paddingTop: isIphone13 ? '1em' : '1em',
+        paddingLeft:isIphone13? '1em' :'1em',
+        marginLeft: isIphone13 ? '1em' : '1em'
     };
 
     return (

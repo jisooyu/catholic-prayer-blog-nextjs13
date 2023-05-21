@@ -9,11 +9,13 @@ const PostPrayer = ({ postPrayer }) => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: isIphone13 ? '4em' : '3em',
+        marginTop: isIphone13 ? '1em' : '3em',
         marginLeft: isIphone13 ? '1em' : '5em',
         height: isIphone13 ? '100vh' : '100vh',
-        width: isIphone13 ? '90vw' : '50vw',
-        paddingTop: isIphone13 ? '4em' : '1em',
+        width: isIphone13 ? '80vw' : '50vw',
+        paddingTop:  '1em' ,
+        paddingLeft:'1em' ,
+        paddingRight: '2em' ,
         overflow: 'scroll'
     };
 
