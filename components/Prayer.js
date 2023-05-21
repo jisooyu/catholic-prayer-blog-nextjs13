@@ -12,9 +12,9 @@ const Prayer = ({ prayer }) => {
     const paperStyle = {
         height: isIphone13 ? '80vh' : '100vh',
         width: isIphone13 ? '80vw' : '65vw',
-        paddingTop: isIphone13 ? '1em' : '1em',
-        paddingLeft:isIphone13? '1em' :'1em',
-        marginLeft: isIphone13 ? '1em' : '1em'
+        paddingTop:  '1em',
+        paddingLeft: '1em',
+        marginLeft:  '1em'
     };
 
     return (
