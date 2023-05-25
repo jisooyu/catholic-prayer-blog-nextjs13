@@ -93,26 +93,6 @@ const Navbar = () => {
                             onClick={() => handleMenuItemClick('/glorious')}
                         >Glorious Mysteries</MenuItem>
                     </Menu>
-
-                    {/* <Toolbar style={toolbarStyle}>
-                        {userObject ? (
-                            <div style={{
-                                display: 'flex',
-                                cursor: 'pointer'
-                            }}>
-                                <LogoutIcon onClick={googleLogout} />
-                                <Typography sx={typoStyle} onClick={googleLogout} variant='body1'>Logout</Typography>
-                            </div>
-                        ) : (
-                            <div style={{
-                                display: 'flex',
-                                cursor: 'pointer'
-                            }}>
-                                <LoginIcon onClick={googleLogin} />
-                                <Typography sx={typoStyle} onClick={googleLogin} variant='body1'>Google Login</Typography>
-                            </div>
-                        )}
-                    </Toolbar> */}
                 </Toolbar>
             </AppBar>
         </div >
