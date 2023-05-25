@@ -5,7 +5,7 @@ const Fatima = () => {
     <main className="flex min-h-screen flex-col items-center p-20 mx-auto max-w-3xl">
       <Image
         src="/assets/fatima-mother.jpeg"
-        alt="Infant Jesus"
+        alt="Holy Mother Fatima"
         width={180}
         height={180}
         priority
