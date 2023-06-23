@@ -23,9 +23,6 @@ const PostPrayer = ({ postPrayer }) => {
 		<Paper
 			elevation={0}
 			sx={paperStyle}
-			style={{
-				height: '400px',
-			}}
 		>
 			<Grid
 				container
