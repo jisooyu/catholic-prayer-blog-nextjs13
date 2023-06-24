@@ -28,9 +28,6 @@ const Prayer = ({ prayer }) => {
 		<Paper
 			elevation={0}
 			sx={paperStyle}
-			style={{
-				height: '200px',
-			}}
 		>
 			<Grid
 				container
