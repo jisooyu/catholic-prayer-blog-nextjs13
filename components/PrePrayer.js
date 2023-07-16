@@ -6,22 +6,21 @@ const PrePrayer = ({ prePrayer }) => {
 
 	const paperStyle = {
 		height: isIphone13 ? '140vh' : '115vh',
-		width: isIphone13 ? '90vw' : '60vw',
-		paddingTop: isIphone13 ? '2em' : '10px',
-		paddingLeft: isIphone13 ? '2em' : '1em',
+		width: isIphone13 ? '100vw' : '60vw',
+		paddingLeft: isIphone13 ? '1em' : '2em',
 		marginLeft: isIphone13 ? '1em' : '1em',
 		marginRight: isIphone13 ? '3em' : '1em',
 	};
 
 	const prayerTitle = {
 		textAlign: 'center',
-		marginTop: '20px',
+		// marginTop: '20px',
 	};
 
 	const repetitionStyle = {
 		textAlign: 'center',
 		fontWeight: 'bold',
-		marginTop: '20px',
+		// marginTop: '3px',
 		marginRight: '30px',
 	};
 
@@ -52,23 +51,19 @@ const PrePrayer = ({ prePrayer }) => {
 				<h3 style={{ textAlign: 'center' }}>{prePrayer.trinity}</h3>
 			</div>
 
-			<p style={{ textAlign: 'center', marginTop: '5px', fontWeight: 'bold' }}>
+			<p style={{ textAlign: 'center', fontWeight: 'bold' }}>
 				{prePrayer.hailMary}
 			</p>
 			{/* 청원기도 */}
 			<h3 style={prayerTitle}>{prePrayer.petitionPrayerTitle}</h3>
 			<div style={prayerStyle}>
-				<p style={{ marginTop: '10px', textAlign: 'left' }}>
-					{prePrayer.petitionPrayer}
-				</p>
+				<p style={{ textAlign: 'left' }}>{prePrayer.petitionPrayer}</p>
 			</div>
 			<h3 style={repetitionStyle}>{prePrayer.repititionOne}</h3>
 			{/* 감사기도 */}
 			<h3 style={prayerTitle}>{prePrayer.thanksgivingPrayerTitle}</h3>
 			<div style={prayerStyle}>
-				<p style={{ marginTop: '10px', textAlign: 'left' }}>
-					{prePrayer.thanksgivingPrayer}
-				</p>
+				<p style={{ textAlign: 'left' }}>{prePrayer.thanksgivingPrayer}</p>
 			</div>
 			<h3 style={repetitionStyle}>{prePrayer.repititionTwo}</h3>
 		</Paper>
