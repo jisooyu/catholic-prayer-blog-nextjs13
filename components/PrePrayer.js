@@ -6,7 +6,7 @@ const PrePrayer = ({ prePrayer }) => {
 	const isIphone13 = useMediaQuery('(max-width: 400px)');
 
 	const paperStyle = {
-		height: isIphone13 ? '140vh' : '105vh',
+		height: isIphone13 ? '140vh' : '115vh',
 		width: isIphone13 ? '90vw' : '60vw',
 		paddingTop: isIphone13 ? '2em' : '1em',
 		paddingLeft: isIphone13 ? '2em' : '1em',
