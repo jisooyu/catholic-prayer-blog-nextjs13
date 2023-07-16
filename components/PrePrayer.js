@@ -16,13 +16,6 @@ const PrePrayer = ({ prePrayer }) => {
 		textAlign: 'center',
 	};
 
-	const repetitionStyle = {
-		textAlign: 'center',
-		fontWeight: 'bold',
-		marginRight: '30px',
-		marginTop: '5px',
-	};
-
 	const prayerStyle = {
 		display: 'flex',
 		alignItems: 'center',
@@ -60,13 +53,13 @@ const PrePrayer = ({ prePrayer }) => {
 			<div style={prayerStyle}>
 				<p style={{ textAlign: 'left' }}>{prePrayer.petitionPrayer}</p>
 			</div>
-			<h3 style={repetitionStyle}>{prePrayer.repititionOne}</h3>
+			<h3 style={prayerStyle}>{prePrayer.repititionOne}</h3>
 			{/* 감사기도 */}
 			<h3 style={prayerTitle}>{prePrayer.thanksgivingPrayerTitle}</h3>
 			<div style={prayerStyle}>
 				<p style={{ textAlign: 'left' }}>{prePrayer.thanksgivingPrayer}</p>
 			</div>
-			<h3 style={repetitionStyle}>{prePrayer.repititionTwo}</h3>
+			<h3 style={prayerStyle}>{prePrayer.repititionTwo}</h3>
 		</Paper>
 	);
 };
