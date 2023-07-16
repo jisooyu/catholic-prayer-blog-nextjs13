@@ -14,14 +14,13 @@ const PrePrayer = ({ prePrayer }) => {
 
 	const prayerTitle = {
 		textAlign: 'center',
-		// marginTop: '20px',
 	};
 
 	const repetitionStyle = {
 		textAlign: 'center',
 		fontWeight: 'bold',
-		// marginTop: '3px',
 		marginRight: '30px',
+		marginTop: '5px',
 	};
 
 	const prayerStyle = {
@@ -30,6 +29,7 @@ const PrePrayer = ({ prePrayer }) => {
 		justifyContent: 'center',
 		marginRight: '5em',
 		marginLeft: '2em',
+		marginTop: '5px',
 		width: '80%',
 	};
 
@@ -44,6 +44,7 @@ const PrePrayer = ({ prePrayer }) => {
 						textAlign: 'center',
 						justifyContent: 'center',
 						alignItems: 'center',
+						marginTop: '5px',
 					}}
 				>
 					{prePrayer.title}
