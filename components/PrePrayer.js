@@ -1,6 +1,5 @@
 'use client';
 import { Paper, useMediaQuery } from '@mui/material';
-// import { cardStyle } from '../styles/cardStyle';
 
 const PrePrayer = ({ prePrayer }) => {
 	const isIphone13 = useMediaQuery('(max-width: 400px)');
@@ -8,7 +7,7 @@ const PrePrayer = ({ prePrayer }) => {
 	const paperStyle = {
 		height: isIphone13 ? '140vh' : '115vh',
 		width: isIphone13 ? '90vw' : '60vw',
-		paddingTop: isIphone13 ? '2em' : '1em',
+		paddingTop: isIphone13 ? '2em' : '0.5em',
 		paddingLeft: isIphone13 ? '2em' : '1em',
 		marginLeft: isIphone13 ? '1em' : '1em',
 		marginRight: isIphone13 ? '3em' : '1em',
