@@ -59,7 +59,7 @@ const PrePrayer = ({ prePrayer }) => {
 			{/* 청원기도 */}
 			<h3 style={prayerTitle}>{prePrayer.petitionPrayerTitle}</h3>
 			<div style={prayerStyle}>
-				<p style={{ marginTop: '20px', textAlign: 'left' }}>
+				<p style={{ marginTop: '10px', textAlign: 'left' }}>
 					{prePrayer.petitionPrayer}
 				</p>
 			</div>
@@ -67,7 +67,7 @@ const PrePrayer = ({ prePrayer }) => {
 			{/* 감사기도 */}
 			<h3 style={prayerTitle}>{prePrayer.thanksgivingPrayerTitle}</h3>
 			<div style={prayerStyle}>
-				<p style={{ marginTop: '20px', textAlign: 'left' }}>
+				<p style={{ marginTop: '10px', textAlign: 'left' }}>
 					{prePrayer.thanksgivingPrayer}
 				</p>
 			</div>
