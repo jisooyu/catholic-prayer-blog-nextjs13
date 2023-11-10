@@ -1,7 +1,6 @@
 import './globals.css';
 
 import Navbar from '@/components/Navbar';
-// import Provider from '@/components/Provider'
 
 export const metadata = {
 	title: 'Catholic Prayer Blog Next JS 13',
@@ -12,12 +11,10 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body>
-				{/* <Provider> */}
 				<main className='app'>
 					<Navbar />
 					{children}
 				</main>
-				{/* </Provider> */}
 			</body>
 		</html>
 	);
