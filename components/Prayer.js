@@ -66,6 +66,13 @@ const Prayer = ({ prayer }) => {
 								{prayer.title}
 							</Typography>
 							<Typography
+								gutterBottom
+								variant='subtitle1'
+								component='div'
+							>
+								{prayer.subtitle}
+							</Typography>
+							<Typography
 								variant='body2'
 								gutterBottom
 							>
