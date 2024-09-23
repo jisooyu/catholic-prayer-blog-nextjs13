@@ -79,12 +79,26 @@ const Prayer = ({ prayer }) => {
 								{prayer.content}
 							</Typography>
 						</Grid>
-						<Grid item>
+						<Grid
+							item
+							xs
+						>
 							<Typography
 								sx={{ cursor: 'pointer' }}
 								variant='body2'
 							>
 								{prayer.repeat}
+							</Typography>
+						</Grid>
+						<Grid
+							item
+							xs
+						>
+							<Typography
+								gutterBottom
+								variant='subtitle1'
+							>
+								{prayer.ending}
 							</Typography>
 						</Grid>
 					</Grid>
