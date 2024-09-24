@@ -31,7 +31,7 @@ const Prayer = ({ prayer }) => {
 		>
 			<Grid
 				container
-				spacing={2}
+				spacing={1}
 			>
 				<Grid item>
 					<ButtonBase sx={{ width: 150, height: 150 }}>
