@@ -96,7 +96,7 @@ const Prayer = ({ prayer }) => {
 						>
 							<Typography
 								gutterBottom
-								variant='subtitle1'
+								variant='body2'
 							>
 								{prayer.ending}
 							</Typography>
