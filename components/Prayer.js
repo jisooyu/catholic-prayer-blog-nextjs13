@@ -52,7 +52,7 @@ const Prayer = ({ prayer }) => {
 						xs
 						container
 						direction='column'
-						spacing={2}
+						spacing={1}
 					>
 						<Grid
 							item
@@ -60,14 +60,14 @@ const Prayer = ({ prayer }) => {
 						>
 							<Typography
 								gutterBottom
-								variant='subtitle1'
+								variant='body2'
 								component='div'
 							>
 								{prayer.title}
 							</Typography>
 							<Typography
 								gutterBottom
-								variant='subtitle1'
+								variant='body2'
 								component='div'
 							>
 								{prayer.subtitle}
